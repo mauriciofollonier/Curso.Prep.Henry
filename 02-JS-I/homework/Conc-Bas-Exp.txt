@@ -1,0 +1,44 @@
+// Conceptos Básicos (Explicación para persona de 12 años de edad):
+
+//Variables
+Las variables son contenedores dentro de los cuales podemos guardar datos que no son fijos, se escriben de la siguente forma: "var NombreVariable = Dato". El signo "=" es una asignación. Algunos ejemplos var Nombre = "Jose";
+                                                                         var apellido = "Mitchel";
+                                                                         var Edad = 25;
+                                                                         var Telefono = 01189080124;
+
+//String
+Las string son datos de tipo texto y se caracterizan por estar encerradas entre comillas dobles o simples. Ejemplos: "Roma"
+                                                                                                                     'Motorola'
+                                                                                                                     'Continente'
+                                                                                                                     "Vuelo1"
+                                                                                                                     'Vuelo2'
+
+
+//Funciones
+
+Las funciones son bloques de códigos, que generalmente llevan un nombre al cual se antepone la palabra "function" ("función" en español) y que se ejecutan solo cuando sea llamada. Cuando invocamos el nombre de la función, ésta trae todo el código que esa palabra representa.
+
+--Estructura de una función:                   - Nombre: Nombre que le asignamos a la función.
+                                               - Argumento: Es todo lo que se encuentra entre paréntesis "()". Aquí van a estar las variables o 
+   function Nombre (argumento) {                            elementos que vamos a utilizar.
+       declaración
+            return;                             - Declaración: Lo que hace realmente la función, por ejemplo, operaciones de suma, resta, 
+   }                                                           mostrar o retornar resultados, etc.
+                                               - Return: Es un código que permite devolver lo que nosotros le pidamos, con la particularidad
+                                                         de que solo puede retornar lo que pedimos una sola vez, ahi termina el código, lo que  se escriba debajo no tendrá relevancia, pues el programa no lo leera.
+
+//Declaraciones (funcion "if")
+
+La función "if" ("si" en español) es de tipo condicional, es decir, es una estructura de código en la cual ponemos una condicion, luego si se cumple hace algo y si no se cumple, termina ahi. Ejemplo:        var a = 10                              Explicación
+                                                                    if (a > 5)                       --Si "a" es mayor a 5
+                                                                        console.log('ES MAYOR A 5'); --Que muestre el mensaje "ES MAYOR a 5"
+                                                                                                     --Si "a" no es mayor a 5, no pasa nada,
+                                                                                                       no se cumple la condición y queda ahi.
+
+
+//Booleanos
+Los datos de tipo booleanos son respuestas a operaciones lógicas o de comparación (por ejemplo, <, >, =, >=, <=, ==, etc) y pueden ser:
+ 
+ *  "True" - (Verdadero) 
+      o
+*  "False" - (Falso)
