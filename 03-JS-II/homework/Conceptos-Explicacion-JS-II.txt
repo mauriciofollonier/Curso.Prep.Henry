@@ -1,0 +1,34 @@
+// Explicación de Conceptos JS-II
+
+- Bucles For
+
+El bucle for es una herramientas que nos permite repetir un proceso automáticamente y no tener que ingresar varias líneas de código de forma repetitiva, es decir, nos ayuda a que la solución de los problemas que tengamos se ejecuten de forma más práctica.
+        
+        Estructura del Bucle *for* : Se compone de 3 partes.
+        
+                  1°            2°          3°
+             declarar una   Condición    Como queres                      El bucle for va a repetir el bloque de códigos mientras
+              variable      de frenado   que aumente la variable          mientras la condición se frenado se cumpla, cuando eso 
+            |_________|    |_________|  |_______|                         no pasa, el ciclo deja de repetirse y se termina.
+        
+        for (var i = 0;     i <= 10 ;      i++ ) {                        **IMPORTANTE** SI NO SE DECLARA UN CONTADOR (Por ej: i++)
+            //bloque de código//                                                         EL BUCLE NUNCA SE DETIENE Y PERSISTE DE 
+        }                                                                                INFINITAMENTE, LO QUE HACE QUE SE ATASQUE.
+
+
+
+- Operadores Lógicos
+
+      && (AND o "Y" en Español)
+
+      Operador lógico que se representa con los símbolos "&&" y su función es comparar 2 condiciones, si las dos condiciones son verdaderas devuelve "true", por lo contrario si una o ambas condiciones son falsas devuelve "false". 
+
+      || (OR o "O" en Español)
+
+      Reprensentado por "||" compara 2 condiciones, si alguna de ellas es verdadera, retorna "true", en cambio si ambas son falsas regresa "falso".
+
+      ! (NOT - Negación)
+
+      Se utiliza anteponiendo el signo "!" a la declaración de la que querramos obtener resultado opuesto, es decir, niega esa declaración.
+      Ejemplo:  True // True      False // False
+               !True // False    !False // True
