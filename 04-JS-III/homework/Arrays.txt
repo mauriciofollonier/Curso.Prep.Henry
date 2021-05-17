@@ -1,0 +1,19 @@
+// Arrays:
+Los arrays son contenedores donde se pueden almacenar distintos tipos de elementos (String, booleans, funciones
+otros arrays, etc), a diferencia de las variables que solo pueden contener solo un elemento. Los arrays se
+declaran de la sigiente forma:
+
+             * Empiezan y terminan con corchetes "[]" y los elementos se separan entre sí con coma (",") *
+
+ var Cosas        =    [      'Naranjas', true, 2 ,'Manzanas', 'Peras', 'Bananas',3 ,4        ]
+                       
+       |               |                                                                      |
+       |               |                                                                      |
+       |               |                                                                      |
+
+ Nombre del            | ----------- |-----|----|----------|--------|---------|----|---------| 
+   array
+             N° de ________  0         1     2       3        4         5       6     7
+             Indice                
+                        Dentro de cada array los elementos se encuentran ordenados de acuerdo a la posición 
+                        que ocupan. Esa posición se llama N° de Indice y siempre se cuenta a partir de 0 (CERO);
