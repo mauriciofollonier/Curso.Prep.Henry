@@ -1,0 +1,43 @@
+* Objetos
+  Los objetos son contenedores, similares a los arrays, pero en este caso contienen información que se rela-
+   ciona entre sí. Cada objeto se encierra entre {} y dentro tiene propiedades, y a su vez cada propiedad tiene 
+   un valor. 
+
+     var objeto = {
+                propiedad1: valor1
+                propiedad2: valor2
+                propiedad3: valor3
+     }
+
+	* Propiedades
+     Como dijimos anteriormente, las propiedades son características que se encuentran dentro del objeto y 
+     tienen un valor.
+
+	* Métodos
+    Los métodos son funciones dentro de un objeto. Se declaran asi:
+
+       var objeto = {
+                 saludar: function () {               -.Se pueden invocar de esta forma:
+                    |       | return 'Buenos días';     objeto.saludar() o objeto[saludar]() 
+                    |     } |
+       }            |       |
+                    |       |
+              Nombre del    Sintáxis
+                 Método
+                    
+	* Bucle `for…in`
+    Es un bucle que esta desarrollado para que pueda iterar dentro de un objeto, pasando por cada
+     propiedad:valor y no se detiene hasta haber recorrido completamente el objeto. La sintáxis 
+      varia un poco con respecto al bucle tradicional:
+
+       for   ( let  iterador  in    objeto) {
+              --------------       ---------
+                     |                 |
+                     |                 |
+       }      Nombre de la        Nombre del
+               variable            Objeto
+
+
+	* Notación de puntos vs notación de corchetes
+    Se puede acceder a las propiedades de un objeto con la notación de punto o corchetes, es indiferente, por
+     ej:   objeto.propiedad     o       objeto[propiedad]
