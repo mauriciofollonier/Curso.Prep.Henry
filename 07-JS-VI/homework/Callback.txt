@@ -1,0 +1,20 @@
+* Callback
+
+ Es una función que se pasa como argumento de otra función, esto nos sirve justamente para que esa función
+Callback nos permita realizar otra tarea dentro de otra función al llamarla.
+ La convención es usar la sintáxis "cb" al definir la función a la que luego vamos a llamar. Ejemplo:
+  
+  Yo quiero crear una función que me muestre un mensaje para saludar a un usuario.
+
+                  |     function cb (usuario) {
+1) Definimos la   |      return 'Hola ' + usuario + '!';
+    función       |       }          
+    Callback      |    
+
+
+2) Creamos una    |  function saludar (usuario, cb) {
+    función e     |     return cb(usuario)
+  invocamos al    |    }
+   Callback       |   
+
+   .- saludar('JOSE',cb) // 'Hola JOSE!'
