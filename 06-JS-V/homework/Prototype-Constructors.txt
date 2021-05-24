@@ -1,0 +1,33 @@
+* Prototype
+
+ El Prototype o prototipo de objetos es un mecanismo que actúa como una plantilla para que un objeto tenga 
+acceso a métodos y propiedades "heredadas", es decir,  que objetos diferentes pueden tener disponibles esas propiedades
+y métodos definidos en otros objetos (su objeto prototipo). Por ejemplo 'string'.length - el tipo de dato string
+tiene definido dentro de su prototipo la propiedad '.length' es por eso que puede utilizar dicha propiedad.
+ En Javascript todos los objetos tienen una referencia a otro objeto llamado su "prototipo".
+
+* Constructors
+
+Un constructor es un método a través del cual podemos crear un Objeto a partir de una Clase. El constructor
+la principal función de la cual disponemos para crar una Clase, por ejemplo:
+
+Fábrica de Autos Volkwagen
+
+Clase - Autos // Para que sea considerado un auto debe reunir ciertas características, 
+                Ruedas  |
+                Motor   |___________ Estas características se definen en el *Constructor*
+                Volante |             para poder luego crear objetos a partir de ellas.   
+                Puertas  | 
+
+   Objeto ----------------------> Gol //           - Escarabajo //                 - Polo //
+               
+ Propiedades                      Ruedas                    Ruedas                    Ruedas
+    del      ------------------>  Motor                     Motor                     Motor
+Constructor                       Volante                   Volante                   Volante
+                                  Puertas                   Puertas                   Puertas
+                                   
+                                     
+            
+       
+
+
