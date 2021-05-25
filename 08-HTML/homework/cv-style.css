@@ -1,0 +1,24 @@
+        body {
+            background-image: url(https://static.vecteezy.com/system/resources/previews/000/570/486/large_2x/vector-abstract-technology-gray-and-white-geometric-corporate-design-background.jpg);
+            
+            background-image:image(100%);
+            background-size: 100%;
+        }
+		h1{
+			text-align: center;
+			display: block;
+		}
+
+		li{
+			margin: 8px;
+		}
+
+        img{
+            position: relative;
+            display: inline;
+            margin-right: 150px;
+            height: 180px;
+            width: 240px;
+            float: right;  
+            border-style: double;
+        }
